@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Default suite]" duration-ms="70673" started-at="2018-11-19T08:29:31Z" finished-at="2018-11-19T08:30:42Z">
+    <groups>
+    </groups>
+    <test name="Default test(failed)" duration-ms="70673" started-at="2018-11-19T08:29:31Z" finished-at="2018-11-19T08:30:42Z">
+      <class name="Academy.Project.HomePage">
+        <test-method status="PASS" signature="diveropen()[pri:0, instance:Academy.Project.HomePage@5e3a8624]" name="diveropen" is-config="true" duration-ms="23472" started-at="2018-11-19T08:29:31Z" finished-at="2018-11-19T08:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diveropen -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.Project.HomePage@5e3a8624]" name="basepagenavigation" duration-ms="38366" started-at="2018-11-19T08:29:55Z" data-provider="getData" finished-at="2018-11-19T08:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@go.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.Project.HomePage@5e3a8624]" name="basepagenavigation" duration-ms="8646" started-at="2018-11-19T08:30:33Z" data-provider="getData" finished-at="2018-11-19T08:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@go.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="endofTest()[pri:0, instance:Academy.Project.HomePage@5e3a8624]" name="endofTest" is-config="true" duration-ms="154" started-at="2018-11-19T08:30:42Z" finished-at="2018-11-19T08:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endofTest -->
+      </class> <!-- Academy.Project.HomePage -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
